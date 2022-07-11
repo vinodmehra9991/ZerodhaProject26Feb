@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="TestCases.DashboardPageTest">
+        <methods>
+          <include name="VerifyUsernametest"/>
+          <include name="StartInvestingtest"/>
+          <include name="exit"/>
+          <include name="setuo"/>
+          <include name="verifyemailidtest"/>
+        </methods>
+      </class> <!-- TestCases.DashboardPageTest -->
+      <class name="TestCases.HardAssert">
+        <methods>
+          <include name="verifytitletest"/>
+          <include name="verifykitelogotest"/>
+          <include name="setup"/>
+          <include name="exit"/>
+          <include name="loginsetuptest"/>
+        </methods>
+      </class> <!-- TestCases.HardAssert -->
+      <class name="TestCases.PriorityTest">
+        <methods>
+          <include name="verifyzerodhalogotest"/>
+          <include name="verifykitelogotest"/>
+          <include name="setup"/>
+          <include name="exit"/>
+          <include name="loginsetuptest"/>
+        </methods>
+      </class> <!-- TestCases.PriorityTest -->
+      <class name="TestCases.TakePhotoTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyzerodhalogotest"/>
+          <include name="verifykitelogotest"/>
+          <include name="verifytitletest"/>
+          <include name="loginsetuptest"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- TestCases.TakePhotoTest -->
+      <class name="TestCases.LoginPageTest">
+        <methods>
+          <include name="verifyzerodhalogotest"/>
+          <include name="exit"/>
+          <include name="loginsetuptest"/>
+          <include name="verifykitelogotest"/>
+          <include name="setup"/>
+          <include name="verifytitletest"/>
+        </methods>
+      </class> <!-- TestCases.LoginPageTest -->
+      <class name="TestCases.GroupTest">
+        <methods>
+          <include name="exit"/>
+          <include name="loginsetuptest"/>
+          <include name="verifytitletest"/>
+          <include name="verifyzerodhalogotest"/>
+          <include name="verifykitelogotest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.GroupTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
